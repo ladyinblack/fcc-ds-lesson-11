@@ -73,13 +73,3 @@ console.log(
     'peter'
   )
 );
-
-/** HINTS:
- * 1. A 'for' loop must be used to search through every element in the array.
- *      for (let i = 0; i < arr.length; i++) {}
- * 2. Every element of the array must then be compared to the elem parameter passed through the filteredArray() function.
- *      if (arr[i].indexOf(elem) == -1) {}
- * 3. If a match is NOT found then newArr have that entire subarray added.  The push() function is very useful here.
- *      newArr.push(arr[i]);
- *    Once that entire subarray is added to newArr the loop continue with the next element.
- */
